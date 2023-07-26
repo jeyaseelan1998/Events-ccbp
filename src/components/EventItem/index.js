@@ -13,7 +13,7 @@ const EventItem = ({ eventDetails, updateActiveEventId, isActiveEvent }) => {
     return (
         <li className='event-item-container'>
             <button className='event-button' onClick={onClickHandler}>
-                <img src={imageUrl} alt={name} className={`event-image  ${isActiveEvent ? 'active-event' : ''}`} />
+                <img src={imageUrl} alt="event" className={`event-image  ${isActiveEvent ? 'active-event' : ''}`} />
             </button>
             <p className='event-name'>{name}</p>
             <p className='event-location'>{location}</p>

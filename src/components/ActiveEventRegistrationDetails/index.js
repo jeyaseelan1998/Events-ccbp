@@ -22,12 +22,11 @@ const ActiveEventRegistrationDetails = (props) => {
       <div className='view-container'>
         <img src='https://assets.ccbp.in/frontend/react-js/events-register-img.png' alt='yet to register' className='not-registered-image' />
         <p className='not-rgistered-para'>
-          A live performance brings so much to your
-          relationship with dance. Seeing dance live
+          A live performance brings so much to your relationship with dance. Seeing dance live
           can often make you fall totally in love with
           this beautiful art form.
         </p>
-        <button className='register-here-btn'>Register here</button>
+        <button className='register-here-btn'>Register Here</button>
       </div>
     </div>
   )
@@ -36,10 +35,9 @@ const ActiveEventRegistrationDetails = (props) => {
     <div className='active-event-registration-details-container'>
       <div className='view-container'>
         <img src='https://assets.ccbp.in/frontend/react-js/events-regestered-img.png' alt='registered' className='registered-image' />
-        <p className='registered-para'>
-          You have already registered for
-          the event
-        </p>
+        <h1 className='registered-para'>
+          You have already registered for the event
+        </h1>
       </div>
     </div>
   )
