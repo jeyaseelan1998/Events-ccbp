@@ -1,1 +1,19 @@
-/* Write your CSS here */
+.app-container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.events-container {
+    background-color: #323f4b;
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px;
+    width: 1090px;
+}
+
+.events-list {
+    align-self: center;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+}

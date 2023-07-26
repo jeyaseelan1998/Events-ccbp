@@ -1,1 +1,59 @@
-/* Write your CSS here */
+.active-event-registration-details-container {
+    flex: 1;
+    display: flex;
+    padding-left: 25px;
+}
+
+.no-active-event-veiw-text {
+    margin-top: 50px;
+    width: 250px;
+    text-align: center;
+    font-size: 18px;
+    font-family: Roboto;
+    font-weight: 500;
+    color:  #64748b;
+}
+
+.view-container {
+    align-self: center;
+    text-align: center;
+    width: 250px;
+    position: relative;
+}
+
+.not-registered-image {
+    width: 100%;
+}
+
+.not-registered-para {
+    font-weight: 500;
+    font-family: Roboto;
+    font-size: 14px;
+    color: #64748b;
+    line-height: 18px;
+}
+
+.register-here-btn {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background-color: #0967d2;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    color: #f8fafc;
+    cursor: pointer;
+}
+
+.registered-image {
+    width: 90px;
+}
+
+.registered-para {
+    font-weight: 600;
+    font-family: Roboto;
+    font-size: 18px;
+    color: #323f4b;
+    line-height: 18px;
+}

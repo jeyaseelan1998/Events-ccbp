@@ -1,1 +1,38 @@
-/* Write your CSS here */
+.event-item-container {
+    list-style: none;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.event-button {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.event-image {
+    width: 220px;
+}
+
+.event-name {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 18px;
+    color: #f8fafc;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.event-location {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 5px;
+    color: #f8fafc;
+}
+
+.active-event {
+    border: 2px solid  #0967d2;
+    border-radius: 8px;
+}
